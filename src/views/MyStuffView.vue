@@ -6,6 +6,7 @@
 
     <div class="Text col-start-2 row-start-1 justify-stretch">
       <div class="poppins font-bold text-[#DC4E36] -rotate-90 inline-block -translate-x-full origin-top-right -rotate-90 pt-4 hover:-rotate-93">
+        
         <RouterLink to="/project/rabalder" class="">Designing a visual identity for a guitarstore</RouterLink>
       </div>
     </div>
@@ -18,7 +19,7 @@
 
     <div class="Text col-start-2 row-start-2 ">
       <div class="poppins font-bold text-[#DC4E36] inline-block -translate-x-full origin-top-right -rotate-90  pt-4 hover:-rotate-93">
-        <a href="/project/creativecoding"> Creative coding in Processing + plotting</a>
+        <RouterLink to="/project/creativecoding" class="">Creative coding in Processing + plotting</RouterLink>
       </div>
     </div>
 
