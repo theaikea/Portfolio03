@@ -1,8 +1,8 @@
 <template>
-  <div class="grid grid-cols-2">
-    <header class="m-4">
+  <div class="grid grid-cols-2 relative">
+    <header class="m-4 fixed top-0 z-40">
       <nav class="text-[#DC4E36]">
-        <RouterLink class="poppins font-bold italic text-2xl fixed z-10 ml-2 hover:rotate-180" to="/">thearavnsbækbode</RouterLink>
+        <RouterLink class="poppins font-bold italic text-2xl ml-2 hover:rotate-180" to="/">thearavnsbækbode</RouterLink>
       </nav>
     </header>
 
@@ -15,12 +15,10 @@
     </footer>
 
   </div>
+  <RouterView/>
 
-<RouterView/>
 </template>
 
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 </script>
-
-
