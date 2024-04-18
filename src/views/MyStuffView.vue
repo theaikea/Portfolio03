@@ -6,7 +6,7 @@
 
     <div class="Text col-start-2 row-start-1 justify-stretch">
       <div class="poppins font-bold text-[#DC4E36] -rotate-90 inline-block -translate-x-full origin-top-right -rotate-90 pt-4 hover:-rotate-93">
-        <a href="/project/rabalder"> Designing a visual identity for a guitarstore</a>
+        <RouterLink to="/project/rabalder" class="">Designing a visual identity for a guitarstore</RouterLink>
       </div>
     </div>
 
